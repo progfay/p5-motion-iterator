@@ -12,8 +12,7 @@ void setup () {
   rectPosition = new RectPosition(
     new Position(0, 0),
     destination,
-    int(random(15, 60)),
-    Mode.EASE_IN_OUT
+    int(random(15, 60))
   );
 }
 
@@ -27,8 +26,7 @@ void draw () {
     rectPosition = new RectPosition(
       origin,
       destination,
-      int(random(15, 60)),
-      Mode.EASE_IN_OUT
+      int(random(15, 60))
     );
   }
 
