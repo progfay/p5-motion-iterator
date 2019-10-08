@@ -5,7 +5,7 @@ Transition transitionX;
 
 void setup () {
   size(600, 600);
-  transitionX = new Transition(50, width - 50, 60, Mode.EASE_IN_OUT);
+  transitionX = new Transition(50, width - 50, 60, EASE_IN_OUT);
 }
 
 void draw () {
